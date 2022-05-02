@@ -1,0 +1,233 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Black And White - A Classic  Android Piano Game</title>
+	
+	<meta name="description" content="This is a classical Black and White game template for Android. The aim of the user is to tap on the Black tiles as fast as possible, while keeping his fingers away from the white tiles. The game includes 4 modes: Classic, Arcade, Zen and Bomb. Thanks for buying this Template!">
+	<meta name="author" content="Melvin Zammit">
+	<meta name="copyright" content="Melvin Zammit">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-07-07T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-black-and-white">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#step_by_step_customisation" title="Step By Step Customisation">Step By Step Customisation</a>
+				<ul>
+					<li><a href="#step_by_step_customisation_step_1_make_sure_you_have_eclipse_with_the_latest_android_sdk_installed_on_your_system">Step 1 - Make sure you have Eclipse with the latest Android SDK installed on your system.</a>
+					<li><a href="#step_by_step_customisation_step_2_import_the_39code_import_me_in_eclipse_39_file_into_eclipse_3_files_should_be_imported_google_play_services_lib,_basegameutils,_black_and_white_">Step 2 - Import the &#39;CODE - Import me in eclipse&#39; file into Eclipse. (3 files should be imported: google-play-services_lib, BaseGameUtils, Black and White)</a>
+					<li><a href="#step_by_step_customisation_step_3_replace_any_placeholder_images">Step 3 - Replace any PlaceHolder Images</a>
+					<li><a href="#step_by_step_customisation_step_4_make_sure_to_rename_the_app_package_id">Step 4 - Make sure to rename the App Package id</a>
+					<li><a href="#step_by_step_customisation_step_5_create_an_interstitial_nbspad_on_admob_and_paste_the_ad_unit_id_in_nbspthe_stringsxml_file">Step 5 - Create an interstitial&nbsp;Ad on AdMob and paste the AD unit Id in&nbsp;the Strings.xml file.</a>
+					<li><a href="#step_by_step_customisation_step_6_create_an_banner_ad_on_admob_and_paste_the_ad_unit_id_in_nbspthe_stringsxml_file_otional_">Step 6 - Create an Banner Ad on AdMob and paste the AD unit Id in&nbsp;the Strings.xml file (otional).</a>
+					<li><a href="#step_by_step_customisation_span_style"line_height_15em"step_7_google_play_services_leaderboard_optional_span">Step 7 - Google Play Services Leaderboard (optional).</a>
+					<li><a href="#step_by_step_customisation_step_8_export_your_app_as_a_apk_for_google_play">Step 8 - Export your App as a .APK for Google Play</a>
+				</ul>
+			</li>
+			<li><a href="#personalising_app" title="Personalising App">Personalising App</a>
+				<ul>
+					<li><a href="#personalising_app_todo_tags">TODO Tags</a>
+					<li><a href="#personalising_app_span_style"line_height_15em_font_size_12px"in_the_code_you_will_find_todo_tags_make_sure_to_check_them_out_they_indicate_the_places_that_you_usually_need_to_change_something,_although_in_this_app_most_of_the_things_that_would_be_changed_are_all_in_the_stringsxml_file_span">In the code you will find TODO tags. Make sure to check them out. They indicate the places that you usually need to change something, although in this app most of the things that would be changed are all in the strings.xml file.</a>
+					<li><a href="#personalising_app__nbsp">&nbsp;</a>
+					<li><a href="#personalising_app_change_colors">Change Colors</a>
+					<li><a href="#personalising_app_black_tile_patterns">Black tile Patterns</a>
+					<li><a href="#personalising_app_font_sizes">Font sizes</a>
+				</ul>
+			</li>
+			<li><a href="#editing_images" title="Editing Images">Editing Images</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Melvin Zammit 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Black And White</h1>
+	<h2>A Classic  Android Piano Game</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 07/07/2014</li>
+	<li>latest update: 07/07/2014</li>
+	<li>by: Melvin Zammit</li>
+	<li><a href="http://www.neurondigital.com/">www.neurondigital.com/</a></li>
+	<li>email: <a href="mailto:&#109;&#101;&#108;&#118;&#105;&#110;&#64;&#110;&#101;&#117;&#114;&#111;&#110;&#100;&#105;&#103;&#105;&#116;&#97;&#108;&#46;&#99;&#111;&#109;">&#109;&#101;&#108;&#118;&#105;&#110;&#64;&#110;&#101;&#117;&#114;&#111;&#110;&#100;&#105;&#103;&#105;&#116;&#97;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>This is a classical Black and White game template for Android. The aim of the user is to tap on the Black tiles as fast as possible, while keeping his fingers away from the white tiles. The game includes 4 modes: Classic, Arcade, Zen and Bomb. Thanks for buying this Template!</p>
+	</section>
+	
+	<section id="step_by_step_customisation">
+	<div class="page-header"><h3>Step By Step Customisation</h3><hr class="notop"></div>
+<h4 id="step_by_step_customisation_step_1_make_sure_you_have_eclipse_with_the_latest_android_sdk_installed_on_your_system">Step 1 - Make sure you have Eclipse with the latest Android SDK installed on your system.</h4>
+<h4 id="step_by_step_customisation_step_2_import_the_39code_import_me_in_eclipse_39_file_into_eclipse_3_files_should_be_imported_google_play_services_lib,_basegameutils,_black_and_white_">Step 2 - Import the &#39;CODE - Import me in eclipse&#39; file into Eclipse. (3 files should be imported: google-play-services_lib, BaseGameUtils, Black and White)</h4>
+<p style="margin: 18px 0px 18px 40px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	If you see an error at this point, its because one of the 2 libraries is not loaded well. Right click on Black and White. Goto Properties|Android. In the Library section make sure to have the google play services library and BaseGameUtils loaded (green). Click add to add them.</p>
+<h4 id="step_by_step_customisation_step_3_replace_any_placeholder_images">Step 3 - Replace any PlaceHolder Images</h4>
+<p style="margin: 18px 0px 18px 40px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	In Eclipse you can change any images you wish. <strong>At least make sure to change the icon</strong>.&nbsp;<span style="line-height: 1.5em;">To replace the images just drag and drop your new images in res/drawable.</span></p>
+<h4 id="step_by_step_customisation_step_4_make_sure_to_rename_the_app_package_id">Step 4 - Make sure to rename the App Package id</h4>
+<p style="margin: 18px 0px 18px 40px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	1. &nbsp; &nbsp;First rename the package id in the AndroidManifest.xml:</p>
+<pre class="php L0" style="margin: 0px 0px 0px 80px; padding: 0px 0px 0px 12px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px;">
+<span class="tag" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(30, 52, 123);">&lt;manifest</span><span class="pln" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(72, 72, 76);"> </span><span class="atn" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: teal;">xmlns:android</span><span class="pun" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(147, 161, 161);">=</span><span class="atv" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(221, 17, 68);">&quot;http://schemas.android.com/apk/res/android&quot;
+</span><span class="atn" style="font-family: inherit; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: teal;">package</span><span class="pun" style="font-family: inherit; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(147, 161, 161);">=</span><span class="atv" style="font-family: inherit; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(221, 17, 68);">&quot;</span><span style="font-family: inherit; font-style: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; vertical-align: baseline;"><span class="atv" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(221, 17, 68);">com.yourcompany.AppName</span></span><span class="atv" style="font-family: inherit; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(221, 17, 68);">&quot;</span></pre>
+<pre class="php L2" style="margin: 0px 0px 0px 80px; padding: 0px 0px 0px 12px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px;">
+<span class="atn" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: teal;">android:versionCode</span><span class="pun" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(147, 161, 161);">=</span><span class="atv" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(221, 17, 68);">&quot;1&quot;</span></pre>
+<pre class="php L3" style="margin: 0px 0px 0px 80px; padding: 0px 0px 0px 12px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal; color: rgb(190, 190, 197); text-shadow: rgb(255, 255, 255) 0px 1px 0px;">
+<span class="atn" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: teal;">android:versionName</span><span class="pun" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(147, 161, 161);">=</span><span class="atv" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(221, 17, 68);">&quot;1&quot;</span><span class="pln" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(72, 72, 76);"> </span><span class="tag" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(30, 52, 123);">&gt;</span></pre>
+<p style="margin-left: 40px;">
+	2. &nbsp; &nbsp;Rename the package id from the &#39;Package Explorer&#39; window in eclipse. Just expand the Black and white File, expand the underlying &#39;src&#39; file and click on tha file named &#39;com.neurondigital.blackandwhite&#39;. Then just go to file| Rename.</p>
+<p style="margin-left: 40px;">
+	<strong>If you don&#39;t follow these steps or do step 2 first, eclipse will generate R. references in your code, which you would have to delete manually, else there would be errors generated.</strong></p>
+<h4 id="step_by_step_customisation_step_5_create_an_interstitial_nbspad_on_admob_and_paste_the_ad_unit_id_in_nbspthe_stringsxml_file">Step 5 - Create an interstitial&nbsp;Ad on AdMob and paste the AD unit Id in&nbsp;the Strings.xml file.</h4>
+<p style="margin: 18px 0px 18px 40px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	The Ad displays once before gameover. Make sure to add this to start making money from your App.</p>
+<h4 id="step_by_step_customisation_step_6_create_an_banner_ad_on_admob_and_paste_the_ad_unit_id_in_nbspthe_stringsxml_file_otional_">Step 6 - Create an Banner Ad on AdMob and paste the AD unit Id in&nbsp;the Strings.xml file (otional).</h4>
+<p style="margin: 18px 0px 18px 40px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	The Ad displays in the bottom of the screen. Ideally it&#39;s either the banner or the interstitial ad, so you may wish to leave one of the IDs in strings.xml empty.</p>
+<h4 id="step_by_step_customisation_span_style"line_height_15em"step_7_google_play_services_leaderboard_optional_span"><span style="line-height: 1.5em;">Step 7 - Google Play Services Leaderboard (optional).</span></h4>
+<p style="margin-left: 40px;">
+	<span style="line-height: 1.5em;">The game template can connect to a google play leaderboard when opened and upload the new score after each gameover. To enable this just create a leaderboard on Google Play Store and put the generated App id and leaderboard ids in strings.xml. You need to create 4 leaderboards, one for each mode&#39;s top score.</span></p>
+<pre class="php" style="margin-left: 40px;">
+  &lt;string name=&quot;app_id&quot;&gt;PUT APP ID HERE&lt;/string&gt;
+  &lt;!-- Google Play services leaderboard Ids - You need to create 4 leaderboards in google Play developer console, one for each top score. Then just get each one&#39;s id and put it here --&gt;
+  &lt;string name=&quot;Classic_leaderboard_id&quot;&gt;PUT ClASSICAL LEADERBOARD ID HERE&lt;/string&gt;
+  &lt;string name=&quot;Arcade_leaderboard_id&quot;&gt;PUT ARCADE LEADERBOARD ID HERE&lt;/string&gt;
+  &lt;string name=&quot;Zen_leaderboard_id&quot;&gt;PUT ZEN LEADERBOARD ID HERE&lt;/string&gt;
+  &lt;string name=&quot;Bomb_leaderboard_id&quot;&gt;PUT BOMB LEADERBOARD ID HERE&lt;/string&gt;</pre>
+<p style="margin-left: 40px;">
+	If this is not done, the top score icon fill not be shown. Read more about leaderboards on the official docs:&nbsp;<a href="https://developers.google.com/games/services/common/concepts/leaderboards">https://developers.google.com/games/services/common/concepts/leaderboards</a></p>
+<h4 id="step_by_step_customisation_step_8_export_your_app_as_a_apk_for_google_play">Step 8 - Export your App as a .APK for Google Play</h4>
+</section>
+<section id="personalising_app">
+	<div class="page-header"><h3>Personalising App</h3><hr class="notop"></div>
+<h4 id="personalising_app_todo_tags">TODO Tags</h4>
+<h4 id="personalising_app_span_style"line_height_15em_font_size_12px"in_the_code_you_will_find_todo_tags_make_sure_to_check_them_out_they_indicate_the_places_that_you_usually_need_to_change_something,_although_in_this_app_most_of_the_things_that_would_be_changed_are_all_in_the_stringsxml_file_span"><span style="line-height: 1.5em; font-size: 12px;">In the code you will find TODO tags. Make sure to check them out. They indicate the places that you usually need to change something, although in this app most of the things that would be changed are all in the strings.xml file.</span></h4>
+<h4 id="personalising_app__nbsp">&nbsp;</h4>
+<h4 id="personalising_app_change_colors">Change Colors</h4>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Open Strings.xml. In the code search for the following snippet.&nbsp;Change the color codes, to change the respective colors.</p>
+<pre class="php" style="margin-left: 40px;">
+    &lt;!-- Primary Colors --&gt;
+    &lt;color name=&quot;white&quot;&gt;#ffffffff&lt;/color&gt;
+    &lt;color name=&quot;black&quot;&gt;#ff000000&lt;/color&gt;
+    &lt;color name=&quot;red&quot;&gt;#ffDC574E&lt;/color&gt;
+    &lt;color name=&quot;green&quot;&gt;#ffA7BD5B&lt;/color&gt;
+    &lt;color name=&quot;grey&quot;&gt;#ffB8B8B8&lt;/color&gt;
+    &lt;color name=&quot;trans_black&quot;&gt;#aa2F3738&lt;/color&gt;</pre>
+<h4 id="personalising_app_black_tile_patterns">Black tile Patterns</h4>
+<p>
+	The black and white tiles are generated from a predefined array. The array currently contains 2 patterns, and one of them is selected randomly on game start. To change the pattern just open maingame.java line114:</p>
+<pre class="php" style="margin-left: 40px;">
+int[][][] classic_arcade_zen_pattern = new int[][][]
+{
+   {
+      { 0, 1, 1, 1 },
+      { 1, 0, 1, 1 },
+      { 1, 1, 0, 1 },...
+</pre>
+<p>
+	In the code excrept above you can see the first 3 tile rows generated. The 0 indicates a black tile while the 1 indicates a white tile.</p>
+<h4 id="personalising_app_font_sizes">Font sizes</h4>
+<div>
+	Feel free to change any font sizes from MainGame.java, line 292.</div>
+<div>
+	Example to increase the title font size just increase the 35 in the code below</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="php" style="margin-left: 40px;">
+Title_Paint.setTextSize(dpToPx(<strong>35</strong>));
+Title_Paint.setAntiAlias(true);
+Title_Paint.setColor(getResources().getColor(R.color.black));
+Title_Paint.setTypeface(Orbitron);</pre>
+</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="editing_images">
+	<div class="page-header"><h3>Editing Images</h3><hr class="notop"></div>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px;">Most of the images have with them included the .ai file. So feel free to edit them as you like. Remember to keep the same image resolution before replaceing it with the one in eclipse.</span></p>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Thanks for buying this Template.&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">If you need any support please check the&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">FAQ questions</span>&nbsp;of the item on codecanyon. If you dont find anything there or the&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">comments&nbsp;of the item</span>&nbsp;please ask your question in the comments for others to see. Also feel free to&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">contact me by email: &#109;&#101;&#108;&#118;&#105;&#110;&#64;&#110;&#101;&#117;&#114;&#111;&#110;&#100;&#105;&#103;&#105;&#116;&#97;&#108;&#46;&#99;&#111;&#109;</span>.</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">I am building an email list. This would be used to inform you next time I create an App to be released on CodeCanyon.&nbsp;<a href="http://www.neurondigital.com/subscribe/index.html" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;">If you like to register feel free to do so here:&nbsp;http://www.neurondigital.com/subscribe/index.html</a></span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Thanks,</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">Melvin Zammit</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">Neuron Digital</span></p>
+</section>
+
+	</div>
+</body>
+</html>
